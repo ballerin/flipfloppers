@@ -42,10 +42,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotica/Scrivania/progetto_con_bfs
+CMAKE_SOURCE_DIR = /home/robotica/lavoro/flipfloppers/Pallal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotica/Scrivania/progetto_con_bfs
+CMAKE_BINARY_DIR = /home/robotica/lavoro/flipfloppers/Pallal
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -114,29 +114,29 @@ proj/fast:
 	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
 .PHONY : proj/fast
 
-proj.o: proj.cpp.o
-.PHONY : proj.o
+prog_nuovo.o: prog_nuovo.cpp.o
+.PHONY : prog_nuovo.o
 
 # target to build an object file
-proj.cpp.o:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/proj.cpp.o
-.PHONY : proj.cpp.o
+prog_nuovo.cpp.o:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/prog_nuovo.cpp.o
+.PHONY : prog_nuovo.cpp.o
 
-proj.i: proj.cpp.i
-.PHONY : proj.i
+prog_nuovo.i: prog_nuovo.cpp.i
+.PHONY : prog_nuovo.i
 
 # target to preprocess a source file
-proj.cpp.i:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/proj.cpp.i
-.PHONY : proj.cpp.i
+prog_nuovo.cpp.i:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/prog_nuovo.cpp.i
+.PHONY : prog_nuovo.cpp.i
 
-proj.s: proj.cpp.s
-.PHONY : proj.s
+prog_nuovo.s: prog_nuovo.cpp.s
+.PHONY : prog_nuovo.s
 
 # target to generate assembly for a file
-proj.cpp.s:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/proj.cpp.s
-.PHONY : proj.cpp.s
+prog_nuovo.cpp.s:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/prog_nuovo.cpp.s
+.PHONY : prog_nuovo.cpp.s
 
 # Help Target
 help:
@@ -147,9 +147,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... proj"
-	@echo "... proj.o"
-	@echo "... proj.i"
-	@echo "... proj.s"
+	@echo "... prog_nuovo.o"
+	@echo "... prog_nuovo.i"
+	@echo "... prog_nuovo.s"
 .PHONY : help
 
 

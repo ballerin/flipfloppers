@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/robotica/Scrivania/progetto_con_bfs/proj.cpp" "/home/robotica/Scrivania/progetto_con_bfs/CMakeFiles/proj.dir/proj.cpp.o"
+  "/home/robotica/lavoro/flipfloppers/Pallal/prog_nuovo.cpp" "/home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles/proj.dir/prog_nuovo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotica/Scrivania/progetto_con_bfs
+CMAKE_SOURCE_DIR = /home/robotica/lavoro/flipfloppers/Pallal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotica/Scrivania/progetto_con_bfs
+CMAKE_BINARY_DIR = /home/robotica/lavoro/flipfloppers/Pallal
 
 # Include any dependencies generated for this target.
 include CMakeFiles/proj.dir/depend.make
@@ -49,37 +49,37 @@ include CMakeFiles/proj.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/proj.dir/flags.make
 
-CMakeFiles/proj.dir/proj.cpp.o: CMakeFiles/proj.dir/flags.make
-CMakeFiles/proj.dir/proj.cpp.o: proj.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/proj.dir/proj.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/proj.cpp.o -c /home/robotica/Scrivania/progetto_con_bfs/proj.cpp
+CMakeFiles/proj.dir/prog_nuovo.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/prog_nuovo.cpp.o: prog_nuovo.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/proj.dir/prog_nuovo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/prog_nuovo.cpp.o -c /home/robotica/lavoro/flipfloppers/Pallal/prog_nuovo.cpp
 
-CMakeFiles/proj.dir/proj.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/proj.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robotica/Scrivania/progetto_con_bfs/proj.cpp > CMakeFiles/proj.dir/proj.cpp.i
+CMakeFiles/proj.dir/prog_nuovo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/prog_nuovo.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robotica/lavoro/flipfloppers/Pallal/prog_nuovo.cpp > CMakeFiles/proj.dir/prog_nuovo.cpp.i
 
-CMakeFiles/proj.dir/proj.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/proj.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robotica/Scrivania/progetto_con_bfs/proj.cpp -o CMakeFiles/proj.dir/proj.cpp.s
+CMakeFiles/proj.dir/prog_nuovo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/prog_nuovo.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robotica/lavoro/flipfloppers/Pallal/prog_nuovo.cpp -o CMakeFiles/proj.dir/prog_nuovo.cpp.s
 
-CMakeFiles/proj.dir/proj.cpp.o.requires:
-.PHONY : CMakeFiles/proj.dir/proj.cpp.o.requires
+CMakeFiles/proj.dir/prog_nuovo.cpp.o.requires:
+.PHONY : CMakeFiles/proj.dir/prog_nuovo.cpp.o.requires
 
-CMakeFiles/proj.dir/proj.cpp.o.provides: CMakeFiles/proj.dir/proj.cpp.o.requires
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/proj.cpp.o.provides.build
-.PHONY : CMakeFiles/proj.dir/proj.cpp.o.provides
+CMakeFiles/proj.dir/prog_nuovo.cpp.o.provides: CMakeFiles/proj.dir/prog_nuovo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/prog_nuovo.cpp.o.provides.build
+.PHONY : CMakeFiles/proj.dir/prog_nuovo.cpp.o.provides
 
-CMakeFiles/proj.dir/proj.cpp.o.provides.build: CMakeFiles/proj.dir/proj.cpp.o
+CMakeFiles/proj.dir/prog_nuovo.cpp.o.provides.build: CMakeFiles/proj.dir/prog_nuovo.cpp.o
 
 # Object files for target proj
 proj_OBJECTS = \
-"CMakeFiles/proj.dir/proj.cpp.o"
+"CMakeFiles/proj.dir/prog_nuovo.cpp.o"
 
 # External object files for target proj
 proj_EXTERNAL_OBJECTS =
 
-proj: CMakeFiles/proj.dir/proj.cpp.o
+proj: CMakeFiles/proj.dir/prog_nuovo.cpp.o
 proj: CMakeFiles/proj.dir/build.make
 proj: /usr/local/lib/libopencv_viz.so.3.0.0
 proj: /usr/local/lib/libopencv_videostab.so.3.0.0
@@ -109,7 +109,7 @@ proj: CMakeFiles/proj.dir/link.txt
 CMakeFiles/proj.dir/build: proj
 .PHONY : CMakeFiles/proj.dir/build
 
-CMakeFiles/proj.dir/requires: CMakeFiles/proj.dir/proj.cpp.o.requires
+CMakeFiles/proj.dir/requires: CMakeFiles/proj.dir/prog_nuovo.cpp.o.requires
 .PHONY : CMakeFiles/proj.dir/requires
 
 CMakeFiles/proj.dir/clean:
@@ -117,6 +117,6 @@ CMakeFiles/proj.dir/clean:
 .PHONY : CMakeFiles/proj.dir/clean
 
 CMakeFiles/proj.dir/depend:
-	cd /home/robotica/Scrivania/progetto_con_bfs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotica/Scrivania/progetto_con_bfs /home/robotica/Scrivania/progetto_con_bfs /home/robotica/Scrivania/progetto_con_bfs /home/robotica/Scrivania/progetto_con_bfs /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles/proj.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotica/lavoro/flipfloppers/Pallal && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotica/lavoro/flipfloppers/Pallal /home/robotica/lavoro/flipfloppers/Pallal /home/robotica/lavoro/flipfloppers/Pallal /home/robotica/lavoro/flipfloppers/Pallal /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles/proj.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/proj.dir/depend
 

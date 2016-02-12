@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotica/Scrivania/progetto_con_bfs
+CMAKE_SOURCE_DIR = /home/robotica/lavoro/flipfloppers/Pallal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotica/Scrivania/progetto_con_bfs
+CMAKE_BINARY_DIR = /home/robotica/lavoro/flipfloppers/Pallal
 
 #=============================================================================
 # Target rules for target CMakeFiles/proj.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/robotica/Scrivania/progetto_con_bfs
 CMakeFiles/proj.dir/all:
 	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/depend
 	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles  1
 	@echo "Built target proj"
 .PHONY : CMakeFiles/proj.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/proj.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/proj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/proj.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/Scrivania/progetto_con_bfs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles 0
 .PHONY : CMakeFiles/proj.dir/rule
 
 # Convenience name for target.

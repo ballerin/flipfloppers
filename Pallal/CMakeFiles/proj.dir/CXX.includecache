@@ -6,16 +6,20 @@
 
 #IncludeRegexTransform: 
 
-/home/robotica/Scrivania/progetto_con_bfs/proj.cpp
-stdio.h
+/home/robotica/lavoro/flipfloppers/Pallal/prog_nuovo.cpp
+opencv2/opencv.hpp
+/home/robotica/lavoro/flipfloppers/Pallal/opencv2/opencv.hpp
+opencv2/core.hpp
 -
-cstdlib
+opencv2/imgproc.hpp
+-
+opencv2/highgui.hpp
 -
 iostream
 -
-opencv2/opencv.hpp
+stdio.h
 -
-opencv2/core/core.hpp
+cstdlib
 -
 vector
 -

@@ -1,1 +1,1 @@
-/home/robotica/Scrivania/progetto_con_bfs/CMakeFiles/proj.dir
+/home/robotica/lavoro/flipfloppers/Pallal/CMakeFiles/proj.dir
